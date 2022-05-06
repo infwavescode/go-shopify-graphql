@@ -23,3 +23,5 @@ require (
 	golang.org/x/sys v0.0.0-20220227234510-4e6760a101f9 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
+
+replace github.com/r0busta/go-shopify-graphql/v6 => github.com/infwavescode/go-shopify-graphql/v6
