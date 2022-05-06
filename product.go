@@ -281,24 +281,7 @@ func (s *ProductServiceOp) Get(id string) (*model.Product, error) {
 }
 
 func (s *ProductServiceOp) GetCollections(id string) (*model.Product, error) {
-	out, err := s.getCollection(id, "")
-	if err != nil {
-		return nil, err
-	}
-
-	nextPageData := out
-	hasNextPage := out.Variants.PageInfo.HasNextPage
-	for hasNextPage && len(nextPageData.Variants.Edges) > 0 {
-		cursor := nextPageData.Variants.Edges[len(nextPageData.Variants.Edges)-1].Cursor
-		nextPageData, err := s.getPage(id, cursor)
-		if err != nil {
-			return nil, fmt.Errorf("get page: %w", err)
-		}
-		out.Variants.Edges = append(out.Variants.Edges, nextPageData.Variants.Edges...)
-		hasNextPage = nextPageData.Variants.PageInfo.HasNextPage
-	}
-
-	return out, nil
+	return s.getCollection(id, "")
 }
 
 func (s *ProductServiceOp) getPage(id string, cursor string) (*model.Product, error) {
