@@ -330,7 +330,7 @@ func (s *ProductServiceOp) getPage(id string, cursor string) (*model.Product, er
 
 func (s *ProductServiceOp) getCollection(id string, cursor string) (*model.Product, error) {
 	q := fmt.Sprintf(`
-		query product($id: ID!, $cursor: String) {
+		query product($id: ID!) {
 			product(id: $id){
 				%s
 			}
