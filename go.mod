@@ -28,9 +28,9 @@ require (
 )
 
 replace (
-	github.com/r0busta/go-shopify-graphql/v6 => github.com/infwavescode/go-shopify-graphql/v6 v6.2.7
-	github.com/r0busta/go-shopify-graphql/v6/graphql => github.com/infwavescode/go-shopify-graphql/graphql/v6 v6.2.7
-	github.com/r0busta/go-shopify-graphql/v6/mock => github.com/infwavescode/go-shopify-graphql/mock/v6 v6.2.7
-	github.com/r0busta/go-shopify-graphql/v6/rand => github.com/infwavescode/go-shopify-graphql/rand/v6 v6.2.7
-	github.com/r0busta/go-shopify-graphql/v6/utils => github.com/infwavescode/go-shopify-graphql/utils/v6 v6.2.7
+	github.com/r0busta/go-shopify-graphql/v6 => github.com/infwavescode/go-shopify-graphql/v6 v6.2.8
+	github.com/r0busta/go-shopify-graphql/v6/graphql => github.com/infwavescode/go-shopify-graphql/graphql/v6 v6.2.8
+	github.com/r0busta/go-shopify-graphql/v6/mock => github.com/infwavescode/go-shopify-graphql/mock/v6 v6.2.8
+	github.com/r0busta/go-shopify-graphql/v6/rand => github.com/infwavescode/go-shopify-graphql/rand/v6 v6.2.8
+	github.com/r0busta/go-shopify-graphql/v6/utils => github.com/infwavescode/go-shopify-graphql/utils/v6 v6.2.8
 )
