@@ -21,8 +21,8 @@ github.com/gorilla/websocket v1.5.0/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/ad
 github.com/graph-gophers/graphql-go v1.2.0/go.mod h1:9CQHMSxwO4MprSdzoIEobiHpoLtHm77vfxsvsIN5Vuc=
 github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v0.5.4/go.mod h1:iADmTwqILo4mZ8BN3D2Q6+9jd8WM5uGBxy+E8yxSoD4=
-github.com/infwavescode/go-shopify-graphql/v6 v6.2.4 h1:PuA3AGf8wiu95iq9swV9MBPnwFAtSaYs9d+31YygKc8=
-github.com/infwavescode/go-shopify-graphql/v6 v6.2.4/go.mod h1:YgnpVEhRtbyCwUNLD1ChATsrgxAbni/PX+HOnEpbywM=
+github.com/infwavescode/go-shopify-graphql/v6 v6.2.6 h1:c+GkVvoiNSwc19ihZ5Yw8war/CxHmKHVktzC0ZSy1YA=
+github.com/infwavescode/go-shopify-graphql/v6 v6.2.6/go.mod h1:hDdjIWvjRXLfb2DUVD2pRibLDfsvlxui3p7YH//7QqY=
 github.com/json-iterator/go v1.1.12 h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=
 github.com/json-iterator/go v1.1.12/go.mod h1:e30LSqwooZae/UwlEbR2852Gd8hjQvJoHmT4TnhNGBo=
 github.com/kevinmbeaulieu/eq-go v1.0.0/go.mod h1:G3S8ajA56gKBZm4UB9AOyoOS37JO3roToPzKNM8dtdM=
