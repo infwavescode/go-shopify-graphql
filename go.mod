@@ -1,4 +1,4 @@
-module github.com/r0busta/go-shopify-graphql/v6
+module github.com/infwavescode/go-shopify-graphql/v6
 
 go 1.17
 
